@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DotZone</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- Custom styles for this template -->
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!-- ---------------- Nav ----------------- -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <h4 class="fs-3 mt-2">DOTZONE 3</h4>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-4 ps-4" aria-current="page" href="/Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">Play</a>
+          </li>
+        </ul>
+        <form class="d-flex px-lg-5 px-md-2" role="search">
+          <a href="/login.html" class="btn" type="submit">Login</a>
+          <a href="/register.html" class="btn" type="submit" >Register</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <button class="about-mode d-flex align-items-center justify-content-center flex-column me-5" onclick="ChangeMode()"><i class="bi bi-moon fs-4" id="icon"></i></button>
+
+  <!-- ---------------- Nav end ----------------- -->
+
+    <!-- ---------------- About us start ----------------- -->
+
+    <div class="aboutUs-part-1 pt-3 pb-3">
+    <div class="container pt-5 pb-5 d-flex align-items-center justify-content-center flex-column text">
+        <h1 class="fw-bold text-white">About Us</h1>
+        <p class=" text-white">Lorem ipsum dolor sit  consectetur adipisicing elit. Tempore magni rerum </p>
+    </div>
+</div>
+    <div class="about pb-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="about-us-img col-lg-6 col-md-12 pt-5">
+                <img src="./assets/images/about-us.png" alt="">
+                </div>
+                <div class="about-us-text col-lg-6 pt-5">
+                    <h1 class="fw-bolder pb-2">About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium ut corporis. Modi praesentium numquam earum, aperiam sequi sint ipsam recusandae laborum deserunt, dolores, ipsa itaque deleniti obcaecati! Beatae, commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate tenetur eius, nemo nesciunt dolores</p>
+                    <button class="about-btn">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mission">
+        <div class="container">
+            <div class="row">
+            <div class="mission-text-1 col-lg-6 mb-5 mt-5">
+                <h1>Mission</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus placeat repudiandae nihil odio dicta dolore repellendus recusandae libero quia, labore expedita culpa quod deleniti architecto ea ipsam sapiente earum perspiciatis.</p>
+            </div>
+            <div class="mission-text-1 col-lg-6 mb-5 mt-5">
+                <h1>Our view</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus placeat repudiandae nihil odio dicta dolore repellendus recusandae libero quia, labore expedita culpa quod deleniti architecto ea ipsam sapiente earum perspiciatis.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- ---------------- About us end ----------------- -->
+
+        <!-- ---------------- team start ----------------- -->
+
+        <div class="container pt-5 pb-5">
+            <div class="OurTeam pb-5">
+                <div class="OurTeam-text pb-5">
+                    <h3 class="fw-bold fs-1 text-center">Our Team</h3>
+                    <p class="text-center fs-5">Explore the whole collection of open-source web components and elements built with the utility classes from tailwind</p>
+                </div>
+                    <div class="row gap-5">
+
+                        <div class="team-item d-flex align-items-center justify-content-center col-lg-6 gap-2 ">
+                            <div class="team-img ">
+                                <img src="./assets/images/bonnie-green.png" alt="">
+                            </div>
+                            <div class="team-text-1">
+                                <h3 class="fw-bold fs-5">Bonnie green</h3>
+                                <p>CEO & web developer</p>
+                                <p>Bonnie drives the technical strategy of the flowbite platform and brand</p>
+                                <div class="team-social fs-5 d-flex align-items-center  gap-5">
+                                    <i class="bi bi-facebook mx-2"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-github"></i>
+                                    <i class="bi bi-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-item d-flex align-items-center justify-content-center col-lg-6 gap-2 ">
+                            <div class="team-img">
+                                <img src="./assets/images/jese-leos.png" alt="">
+                            </div>
+                            <div class="team-text-1">
+                                <h3 class="fw-bold fs-5">Jese Lios</h3>
+                                <p>CTO</p>
+                                <p>Bonnie drives the technical strategy of the flowbite platform and brand</p>
+                                <div class="team-social fs-5 d-flex align-items-center  gap-5">
+                                    <i class="bi bi-facebook mx-2"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-github"></i>
+                                    <i class="bi bi-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-item d-flex align-items-center justify-content-center col-lg-6 gap-2 ">
+                            <div class="team-img">
+                                <img src="./assets/images/michael-gouch.png" alt="">
+                            </div>
+                            <div class="team-text-1">
+                                <h3 class="fw-bold fs-5">michael gough</h3>
+                                <p>Senior front-end developer</p>
+                                <p>Bonnie drives the technical strategy of the flowbite platform and brand</p>
+                                <div class="team-social fs-5 d-flex align-items-center  gap-5">
+                                    <i class="bi bi-facebook mx-2"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-github"></i>
+                                    <i class="bi bi-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-item d-flex align-items-center justify-content-center col-lg-6 gap-2 ">
+                            <div class="team-img">
+                                <img src="./assets/images/sofia-mcguire.png" alt="">
+                            </div>
+                            <div class="team-text-1">
+                                <h3 class="fw-bold fs-5">Lana Byrd</h3>
+                                <p>Marketing & sale</p>
+                                <p>Bonnie drives the technical strategy of the flowbite platform and brand</p>
+                                <div class="team-social fs-5 d-flex align-items-center  gap-5">
+                                    <i class="bi bi-facebook mx-2"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-github"></i>
+                                    <i class="bi bi-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- ---------------- team end ----------------- -->
+
+              <!-- ---------------- quote start ----------------- -->
+
+            <div class="quote pt-5 text-center pb-5">
+              <div class="container">
+                <i class="bi bi-quote text-white-50"></i>
+                <h5 class="fs-3">"Flowbite is just awesome. it contains tons of predesigned components and pagesstarting from login screen to complex dashboard. Perfect choice for your next Saas application"</h4>
+                  <div class="author d-flex flex-row align-items-center justify-content-center gap-1 pt-3">
+                    <img src="./assets/images/michael-gouch.png" alt="">
+                    <p class="mb-0">Michael Gouch <span class="text-white-50">|</span></p>
+                    <p class="second-p mb-0 text-black">CEO at google</p>
+                  </div>
+              </div>
+            </div>
+
+
+                <!-- ---------------- quote start ----------------- -->
+
+                <!-- ---------------- contact us start ----------------- -->
+
+                <div class="contact pt-5 pb-5">
+                  <div class="container">
+                    <div class="contact-text text-center pb-4">
+                      <h2>Contact Us</h2>
+                      <h6 class="fs-4">Got a technical issues? want to send feedback about a beta features? need details about our business plan? ket us know</h6>
+                      </div>
+                      <div class="email pt-5 pb-5">
+                        <p class="mb-0 pb-2">Your email</p>
+                        <input type="email" placeholder="name@flowbite.com">
+                      </div>
+                      <div class="subject pb-5">
+                        <p class="mb-0 pb-2">Subject</p>
+                        <input type="text" placeholder="let us know how we can help you">
+                      </div>
+                      <div class="message">
+                        <p class="mb-0 pb-2">Your message</p>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Leave a comment "></textarea>
+                      </div>
+                      <button class="btn mb-3">Send</button>
+                    </div>
+                </div>
+
+                 <!-- ---------------- contact us end ----------------- -->
+
+                  <!-- ---------------- footer start ----------------- -->
+
+            <div class="footer pt-5">
+              <div class="container ">
+                <div class="row gap-5">
+                <div class="section-1-1 col-lg-2">
+                  <p class="mb-6">SOLUTION</h4>
+                      <section class="d-flex flex-column mb-0 gap-4">
+                        <div class="d-flex align-items-center">
+                          <span class="fs-3">>&nbsp;</span>
+                      <a>Marketing</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>Analytics</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>Commerce</a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <span class="fs-3">>&nbsp;</span>
+                      <a>Data</a>
+                      </div>
+                      <div class="align-items-center d-flex">
+                        <span class="fs-3">>&nbsp;</span>
+                      <a>cloud</a>
+                      </div>
+                    </section> 
+                </div>
+                
+
+                <div class="section-1-1 col-lg-2">
+                  <p class="mb-6">SUPPORT</h4>
+                      <section class="d-flex flex-column mb-0 gap-4">
+                        <div class="d-flex align-items-center">
+                          <span class="fs-3">>&nbsp;</span>
+                      <a>Pricing</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>Documantation</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>guides</a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <span class="fs-3">>&nbsp;</span>
+                      <a>API</a>
+                      </div>
+                    </section> 
+                </div>
+
+
+                <div class="section-1-1 col-lg-2">
+                  <p class="mb-6 pl-3">LEGAL</h4>
+                      <section class="d-flex flex-column mb-0 gap-4">
+                        <div class="d-flex align-items-center">
+                          <span class="fs-3">>&nbsp;</span>
+                      <a>Clain</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>Pivact</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="fs-3">>&nbsp;</span>
+                      <a>Policies</a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <span class="fs-3">>&nbsp;</span>
+                      <a>terms</a>
+                      </div>
+                    </section> 
+                </div>
+                <div class="subsrcibe col-lg-5">
+                  <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                  <p>The lastest news,articles,and resources, sent to your inbox weekly</p>
+                  <div class="inputs">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Enter your email" aria-label="" aria-describedby="button-addon2">
+                      <button class="btn text-white" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="developer">
+                <div class="row align-items-space-around">
+              <p class="mb-0 text-white-50 pt-2 pb-3 col-lg-6">All right reserved ⓒ 2023 by Dany seifeddine</p>
+                <div class="social col-lg-6 text-white-50 pb-4 d-flex align-items-center ">
+                  <a href="google.com" class="text-white-50"><i class="bi bi-facebook fs-3"></i></a>
+                  <a href="" class="text-white-50"><i class="bi bi-linkedin fs-3"></i></a>
+                  <a href="" class="text-white-50 "><i class="bi bi-whatsapp fs-3"></i></a>
+                  <a href="" class="text-white-50"><i class="bi bi-github fs-3"></i></a>
+                </div>
+                </div>
+            </div>
+           </div>
+
+
+                 <!-- ---------------- footer end ----------------- -->
+
+
+
+
+
+   <!-- ---------------- footer start ----------------- -->
+
+   <!--
+
+   <div class="footer pt-5">
+    <div class="container">
+      <div class="row gap-5">
+      <div class="section-1-1 col-lg-2">
+        <p class="mb-6">SOLUTION</h4>
+            <section class="d-flex flex-column mb-0 gap-4">
+              <div class="d-flex align-items-center">
+                <span class="fs-3">>&nbsp;</span>
+            <a>Marketing</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>Analytics</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>Commerce</a>
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="fs-3">>&nbsp;</span>
+            <a>Data</a>
+            </div>
+            <div class="align-items-center d-flex">
+              <span class="fs-3">>&nbsp;</span>
+            <a>cloud</a>
+            </div>
+          </section> 
+      </div>
+      
+
+      <div class="section-1-1 col-lg-2">
+        <p class="mb-6">SUPPORT</h4>
+            <section class="d-flex flex-column mb-0 gap-4">
+              <div class="d-flex align-items-center">
+                <span class="fs-3">>&nbsp;</span>
+            <a>Pricing</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>Documantation</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>guides</a>
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="fs-3">>&nbsp;</span>
+            <a>API</a>
+            </div>
+          </section> 
+      </div>
+
+
+      <div class="section-1-1 col-lg-2">
+        <p class="mb-6 pl-3">LEGAL</h4>
+            <section class="d-flex flex-column mb-0 gap-4">
+              <div class="d-flex align-items-center">
+                <span class="fs-3">>&nbsp;</span>
+            <a>Clain</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>Pivact</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <span class="fs-3">>&nbsp;</span>
+            <a>Policies</a>
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="fs-3">>&nbsp;</span>
+            <a>terms</a>
+            </div>
+          </section> 
+      </div>
+      <div class="subsrcibe col-lg-5">
+        <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+        <p>The lastest news,articles,and resources, sent to your inbox weekly</p>
+        <div class="inputs">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your email" aria-label="" aria-describedby="button-addon2">
+            <button class="btn text-white" type="button" id="button-addon2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="developer">
+      <div class="row align-items-space-around">
+    <p class="mb-0 text-white-50 pt-2 pb-3 col-lg-6">All right reserved ⓒ 2023 by Dany seifeddine</p>
+      <div class="social col-lg-6 text-white-50 pb-4 d-flex align-items-center ">
+        <a href="google.com" class="text-white-50"><i class="bi bi-facebook fs-3"></i></a>
+        <a href="" class="text-white-50"><i class="bi bi-linkedin fs-3"></i></a>
+        <a href="" class="text-white-50 "><i class="bi bi-whatsapp fs-3"></i></a>
+        <a href="" class="text-white-50"><i class="bi bi-github fs-3"></i></a>
+      </div>
+      </div>
+  </div>
+ </div>
+
+-->
+       <!-- ---------------- footer end ----------------- -->
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+</script>
+<!-- Custom scripts for this template -->
+<script src="./js/main.js"></script>
+</body>
+
+</html>

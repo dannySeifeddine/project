@@ -1,0 +1,1001 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*
+Theme Topic: Digital Agency 
+Assignment: 3
+Assigned to: Dany Seifeddine
+Assigned by: Ahmad Chebbo
+Version: 2.0
+License: GNU General Public License v2 or later
+*/
+
+
+
+/*************** Root ***************/
+:root {
+    --primary-color: #0c4a6e;
+    --secondary-color: #1f2937;
+    --tertiary-color: #4f91b8;
+    --primary-font: "Poppins-Medium";
+}
+
+@font-face{
+    font-family: "Poppins-Medium" ;
+    src: url('../assets/fonts/Poppins-Medium.ttf');
+}
+
+/*************** Body ***************/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: var(--primary-font);
+}
+
+/*------------- dark mode --------------- */
+
+.dark{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.dark .darkAndLight{
+
+    color: black;
+    transition: 0.5s ease;
+}
+
+.dark .about-mode{
+
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+.dark .nav-link{
+    color: white;
+}
+
+.dark .btn{
+    color: white;
+}
+
+.dark h4{
+    color: white;
+}
+
+.dark .service{
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.dark .service i{
+
+    color: var(--tertiary-color)
+}
+
+.dark .last .item-1 {
+
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    
+}
+
+.dark .support .section-1 {
+
+    background-color: #374151;
+    
+}
+
+.dark .support .support-contact{
+
+background-color: #4b5563;
+    
+}
+
+.dark .pricing-section .price-item{
+
+    background-color: white;
+    color: black;
+
+}
+.dark .price{
+
+background: linear-gradient(
+    to bottom,
+    #0c4a6e 20%,
+    #0c4a6e 20% 40%,
+    #0c4a6e 40% 60%,
+    #0c4a6e 60% 75%,
+    #1f2937 75%
+  );
+
+  color: black;
+
+}
+
+.darkAndLight {
+
+    background-color: var(--tertiary-color);
+    color: white;
+    border-radius: 100%;
+    border: transparent;
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+}
+
+.about-mode{
+
+    background-color: var(--tertiary-color);
+    color: white;
+    border-radius: 100%;
+    border: transparent;
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+
+}
+
+.dark .OurTeam{
+
+    color: white;
+    
+}
+
+.dark .about-us-text{
+
+    color: white;
+
+}
+
+.dark .team-item{
+
+background-color: #4b5563;
+
+}
+
+.dark .author .second-p {
+
+    color: white !important;
+}
+
+.dark .register-zone{
+
+    background-color: #1f2937;
+    border-color: rgba(255, 255, 255, 0.379);
+
+}
+
+.dark .register-zone input{
+
+
+    background-color: #7a8ea05e;
+
+}
+
+.dark .register-zone input::placeholder{
+
+    color: rgba(255, 255, 255, 0.495);
+}
+
+.dark .DOTZONE{
+
+    background-color: #111827;
+
+}
+
+.dark .register-zone span{
+
+    color: rgba(255, 255, 255, 0.362) !important;
+
+}
+
+.dark .forgot p:first-child{
+
+    color: rgba(255, 255, 255, 0.461) !important;
+    
+}
+
+/*------------- Nav --------------- */
+
+
+.navbar{
+
+box-shadow: 0px 0px 10px black;
+
+}
+
+nav .btn:last-child{
+
+    border: 1px solid transparent;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.nav-link{
+    color: black;
+}
+
+nav h4{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*------------- Nav end --------------- */
+
+/*------------- main start --------------- */
+
+.main h1{
+    font-size: 50px;
+}
+
+.main .btn{
+
+    border: 1px solid transparent;
+    width: 50%;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.main .header-img img{
+    margin-left: 125px;
+    width: 70%;
+}
+
+.service{
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.679);
+    box-shadow: 0px 4px 10px black;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.trusted p {
+    margin: 0;
+    padding: 0;
+}
+
+.last .item-1 {
+
+    width: 30.5%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.367);
+    box-shadow: 0px 4px 10px black;
+}
+
+.last .item-1 h2{
+
+    color: var(--tertiary-color);
+
+}
+
+
+/*------------- main end --------------- */
+
+/*------------- support start --------------- */
+
+.support{
+    
+    background-image: linear-gradient(0deg, rgba(82,126,152,0.7), rgba(82,126,152,0.7)), url(../assets/images/support.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear;
+    padding-bottom: 100px;
+}
+
+.support .text{
+    color: white;
+}
+
+.support .section-1 {
+
+    width: 32.5%;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.support .section-1 .logo {
+    
+    position: relative;
+    bottom: 8%;
+    background-color: var(--primary-color);
+    color: white;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.support .support-contact{
+    width: 32.5%;
+    display: flex;
+    align-items: center;
+    gap: 17vw;
+    background-color: var(--tertiary-color);
+    padding: 15px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+
+/*------------- support end --------------- */
+
+/*------------- notification start --------------- */
+
+.notification-item{
+
+    border: 1px solid rgba(0, 0, 0, 0.367);
+    box-shadow: 0px 4px 10px black;
+    width: 24%;
+    border-radius: 5px;
+    
+}
+
+.not{
+
+    gap: 1.3%;
+
+}
+
+.notification-item i{
+    color: var(--primary-color);
+}
+
+/*------------- notification end --------------- */
+
+/*------------- price start --------------- */
+
+    .price{
+
+        background: linear-gradient(
+            to bottom,
+            #4f91b8 20%,
+            #4f91b8 20% 40%,
+            #4f91b8 40% 60%,
+            #4f91b8 60% 75%,
+            white 75%
+          );
+    }
+
+    .price-section{
+
+        padding-left: 13%;
+        padding-right: 13%;
+        gap: 2%;
+
+    }
+
+    .price-item{
+
+        background-color: white;
+        width: 49%;
+        border: 1px solid rgba(0, 0, 0, 0.367);
+        box-shadow: 0px 4px 10px black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .price .text-1{
+
+     padding-left: 20%;
+     padding-right: 20%;
+     color: white;
+
+    }
+
+    .price-section .price-item .btn {
+
+        font-size: 15px;
+        background-color: var(--primary-color);
+        padding: 5px;
+        border-radius: 40px;
+        color: white;
+        border: transparent;
+
+    }
+
+    .price-section .price-item i{
+
+        color: green;
+
+    }
+
+    .price-section .price-item a{
+
+        color: white;
+        font-weight: 300;
+        background-color: var(--primary-color);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 36%;
+        padding-right: 36%;
+        border-radius: 10px;
+
+    }
+
+
+
+/*------------- price end --------------- */
+
+/*------------- footer start --------------- */
+
+.footer{
+
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+
+.section-1-1{
+
+    width: 15%;
+
+}
+
+
+ul li{
+        
+    list-style: none;
+
+}
+
+.inputs input{
+
+    width: 100%;
+}
+
+.inputs .btn{
+    background-color: var(--tertiary-color);
+}
+
+.social{
+
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+/*------------- footer end --------------- */
+
+
+/* About Us page */
+
+/*---------------------- about us part 1 -----------------------  */
+
+
+
+
+.aboutUs-part-1{
+
+    background-color: var(--primary-color);
+    
+}
+
+.about-us-img img{
+
+    max-width: 100%;
+
+}
+
+.about-us-text{
+
+    color: black;
+    text-align: justify;
+
+}
+
+.about-btn{
+
+    color: white;
+    background-color: var(--primary-color);
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+/*---------------------- about us part 1 end -----------------------  */
+
+/*---------------------- mission start -----------------------  */
+
+.mission{
+
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+/*---------------------- mission 1 end -----------------------  */
+
+/*---------------------- Team start -----------------------  */
+
+.team-item{
+
+    padding: 8px;
+    padding-left: 0px;
+    width: 47.8%;
+
+}
+
+.OurTeam{
+
+    color: black;
+
+}
+
+.OurTeam-text{
+
+    padding-left: 230px;
+    padding-right: 230px;
+
+}
+
+.team-img img{
+    
+    width: 99%;
+    border-radius: 10px;
+
+}
+
+.quote{
+
+    color: white;
+    background-color: var(--primary-color);
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.quote i{
+    font-size: 70px;
+}
+
+.author img{
+
+    width: 3%;
+    border-radius: 100%;
+}
+
+/*---------------------- Team end -----------------------  */
+
+/*---------------------- contact us start -----------------------  */
+
+.contact{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.contact input{
+
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: transparent;
+
+}
+
+.contact textarea{
+
+    border: transparent;
+    width: 100%;
+    
+}
+
+.contact button{
+
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+}
+
+/*---------------------- contact us end -----------------------  */
+
+
+/* about us end */
+
+
+/* Register start */
+
+/*---------------------- register start -----------------------  */
+
+.register{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.DOTZONE span{
+
+    color: var(--tertiary-color);
+
+}
+
+.register-zone{
+
+    margin-left: 330px;
+    margin-right: 330px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.register-zone input{
+
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: transparent;
+    width: 100%;
+}
+
+.register-zone button{
+
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+
+}
+
+
+
+
+
+/*---------------------- register end  -----------------------  */
+
+
+/* Register end */
+
+/*---------------------- login start -----------------------  */
+
+.forgot{
+
+    gap: 100px;
+}
+
+/*---------------------- login end -----------------------  */
+
+
+
+
+
+/* validation */
+#error-password2,
+#error-password,
+ #error{
+
+    padding-top: 5px;
+    font-size: 15px;
+    color: red;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1700px;
+}
+} */
+
+@media(max-width:1202px){
+
+    .section-1-1{
+
+        width: 28%;
+    
+    }
+
+    .darkAndLight {
+
+        cursor: pointer;
+        position: relative;
+        top: 5em;
+       left: 85%;
+        
+    }
+
+    .about-mode{
+
+        cursor: pointer;
+        position: absolute;
+        top: 5em;
+        left: 50px;
+
+    }
+
+}
+
+@media (max-width:1199px){
+
+    .register-zone{
+
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+
+    .team-item{
+
+        padding: 5px;
+        width: 95%;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 0px;
+    }
+
+    .forgot{
+
+        gap: 10px;
+    }
+}
+
+@media (max-width:1024px){
+
+    .main .header-img img{
+
+        margin-left: 0px;
+        width: 80%;
+
+    }
+
+    .service{
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .support .section-1 {
+
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+        
+    
+    }
+    .support .support-contact i{
+
+       display: none;
+
+    }
+    
+    .support .support-contact{
+
+        display: none;
+        
+    }
+
+    .notification-item{
+
+        width: 48%;
+        margin-top: 10px;
+
+    }
+
+    .not{
+
+        gap: 4%;
+
+    }
+
+    .price-item{
+
+        width: 100%;
+        margin-top: 10px;
+      
+    }
+
+    .price .text-1{
+
+        padding-left: 10%;
+        padding-right: 10%;
+   
+       }
+    
+       .price-section .price-item a{
+
+        color: white;
+        font-weight: 300;
+        background-color: var(--primary-color);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 35%;
+        padding-right: 35%;
+        border-radius: 10px;
+    }
+
+    .OurTeam-text{
+
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+
+    .quote{
+
+        color: white;
+        background-color: var(--primary-color);
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+
+    .contact{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width:990px){
+
+    .price-section .price-item a{
+
+        color: white;
+        font-weight: 300;
+        background-color: var(--primary-color);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 40%;
+        padding-right: 40%;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .section-1-1{
+
+
+        width: 100%;
+    
+    }
+
+    .price-section .price-item a{
+       
+        padding-left: 35%;
+        padding-right: 35%;
+
+    }
+
+}
+
+@media (max-width:575px){
+
+    .support{
+        padding: 5%;
+    }
+
+    .notifications{
+        padding: 5%;
+    }
+
+
+}
+
+
+    @media (max-width:425px){
+
+        .support{
+            padding: 5%;
+        }
+
+        .notifications{
+            padding: 5%;
+        }
+
+        .notification-item{
+
+            border: 1px solid rgba(0, 0, 0, 0.367);
+             box-shadow: 0px 4px 10px black;
+            width: 100%;
+            margin-bottom: 20px;
+
+        }  
+        
+        .price .text-1{
+
+            padding-left: 1%;
+            padding-right: 1%;
+       
+           }
+           .price .price-section{
+            padding-left: 2%;
+            padding-right: 2%;
+           }
+
+           .price-section .price-item a{
+            
+            padding-left: 30%;
+            padding-right: 30%;
+            
+        }
+
+        @media(max-width: 320px){
+
+        .register-zone{
+
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+        
+        }
+        }
+
+        @media(max-width: 320px){
+
+            .darkAndLight {
+
+                cursor: pointer;
+                position: relative;
+                top: 11em;
+               left: 80%;
+                
+            }
+        }
+}
+
+
+
+
+
+
+
+
