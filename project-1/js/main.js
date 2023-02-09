@@ -20,15 +20,13 @@ function validate() {
     if (email.value.length < 9) {
         
         email_error.style.display = "block";
-        return false
 
     }
 
     if (password.value.length < 9) {
         
         password_error.style.display = "block";
-        return false
-        
+
     }
 
 
@@ -36,9 +34,27 @@ function validate() {
         
         password.value.length = password2.value.length;
         password2_error.style.display = "block";
-        return false
         
     }
+    return false
+
+}
+
+function validateLogin() {
+    
+    if (email.value.length < 9) {
+        
+        email_error.style.display = "block";
+
+    }
+
+    if (password.value.length < 9) {
+        
+        password_error.style.display = "block";
+
+    }
+
+    return false
 
 }
 
